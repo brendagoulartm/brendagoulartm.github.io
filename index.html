@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoshi Sushi</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="bg-black text-white text-center p-5">
+        <h1>Hoshi</h1>
+        <h4 class="mt-3">O melhor sushi de Torres!</h4>
+        <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./imagens/torres.jpg" alt="Atum" style="height: 450px">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/publico.jpg" alt="Sashimi" style="height: 450px ;">
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/espaço.jpg" alt="Sushi Vegano" style="height: 450px;">
+      </div>
+     <div class="carousel-item">
+        <img src="./imagens/hoshi.jpg" alt="Sushi Vegano" style="height: 450px;">
+      </div>
+    </div>
+  
+
+  
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  
+    </header>
+
+    <!-- A grey horizontal navbar that becomes vertical on small screens -->
+    <nav class="navbar navbar-expand-sm bg-black">
+
+        <div class="container-fluid justify-content-center">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Delivery</a>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                      Contatos
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                      <li><a class="dropdown-item" href="#">Intagram</a></li>
+                      <li><a class="dropdown-item" href="#">E-mail</a></li>
+                    </ul>
+                  </div>
+                  
+            </li>
+          </ul>
+        </div>
+      
+      </nav>
+
+    <main>
+        <section class="row">
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="./imagens/temaki.webp" alt="Card image" style="height:325px">
+                    <div class="card-body">
+                        <h4 class="card-title">Temaki dos Deuses</h4>
+                        <p class="card-text">Salmão, camarão empanado, arroz cream cheese, cebolinha, gergilim molho tarê </p>
+                        <a href="./paginas/prato1.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="./imagens/carpa.webp" alt="Card image" style="height:325px">
+                    <div class="card-body">
+                        <h4 class="card-title">Carpaccio de Salmão(8 unidades)</h4>
+                        <p class="card-text">Lâminas de salmão, sweet chilli, confit de cebola roxa, cebolinha e especiarias.</p>
+                        <a href="./paginas/prato2.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="./imagens/ceviche.webp" alt="Card image" style="height:325px">
+                    <div class="card-body">
+                        <h4 class="card-title">Trilogia de Ceviche</h4>
+                        <p class="card-text">3 variedades de ceviche sendo feitos com especiarias
+                          vindas do japão.
+                        </p>
+                       <a href="./paginas/prato3.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="./imagens/horizontes.webp" alt="Card image" style="height:325px">
+                    <div class="card-body">
+                        <h4 class="card-title">Combo Horizontes(26 peças)</h4>
+                        <p class="card-text">8 hot kiara, 5 uramaki kaori, 5 uramaki maya, 2 djou ayla, 2 djou eiko, 2 djou rúbia e 2 djou akemi</p>
+                        <a href="./paginas/prato4.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class="col-md-6 col-lg-4 mt-3">
+                <div class="card text-center">
+                    <img class="card-img-top" src="./imagens/vegetariano.webp" alt="Card image" style="height:325px"> 
+                    <div class="card-body">
+                        <h4 class="card-title">Combo vegetariano(20 peças)</h4>
+                        <p class="card-text">Combo com 20 peças de sushi com salmão e atum,
+                          acompanhadas de molho shoyo e tarê </p>
+                        <a href="./paginas/prato5.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            <div class=" col-md-6 col-lg-4 mt-3">
+                <div class="card text-center" >
+                    <img class="card-img-top" src="./imagens/yakisoba.webp" atl="Card image" style="height: 325px;">
+                    <div class="card-body">
+                        <h4 class="card-title">Yakisoba Camarão</h4>
+                        <p class="card-text">Camarão, massa, cenoura, repolho, brócolis e especiarias.</p>
+                        <a href="./paginas/prato6.html" class="btn btn-dark">Comprar</a>
+                    </div>
+                </div><!--Fechamento do card-->
+            </div><!--Fechamento da coluna-->
+            </div>
+        </div>
+          
+            </section>
+</main>
+          
+    <footer class="bg-black text-white p-3 text-center">
+      <section>
+        <form class="mt-5 d-flex flex-column w-50  p-3 rounded mx-auto ">
+            <h2>Deixe seu contato e sua sugestão</h2>
+            <label for="nome2">Nome:</label>
+            <input class="form-control" id="nome2" type="text">
+            <label for="email2">Email:</label>
+            <input id="email2" class="form-control" type="email">
+            <label for="nome2">Telefone:</label>
+            <input class="form-control" id="nome2" type="text">
+            <label for="mensagem">Digite sua mensagem:</label>
+            <textarea class="form-control" name="" id="mensagem" cols="30" rows="5">
+            </textarea>
+            <label for="model">Selecione a filial da sua cidade</label>
+            <select class="form-control" name="" id="model">
+                <option value="">Araranguá</option>
+                <option value="">Bom Jesus</option>
+                <option value="">Curitiba</option>
+                <option value="">Criciúma</option>
+                <option value="">Floranópolis</option>
+                <option value="">Torres</option>
+            </select>
+            <label for="">Faça sua reserva</label>
+            <input type="datetime-local" name="" id="">
+
+            <button class="btn btn-dark mt-3" type="submit">Enviar</button>
+        </form>
+    </section>
+        <p>&copy; Todos os direitos reservados! </p>
+        <p>Endereço:R. Calino Venâncio de Matos,105 - Centro, Torres - RS, 95560-000</p>
+        <P>(51)98829-1453</P>
+        <button class="btn btn-dark w-76" data-bs-toggle="collapse" data-bs-target="#sol">Trabalhe Conosco</button>
+              <div id="sol" class="collapse">
+                <h2 class="text-center" style="font-size: medium;">Mande seu currículo pelo e-mail:hoshisushi.@gmail.com</h2>
+            
+            </div>
+    </footer>
+
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>  
